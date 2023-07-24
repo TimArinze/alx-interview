@@ -12,7 +12,7 @@ def canUnlockAll(boxes):
     keys.update(boxes[0])
     # opened_boxes.append(boxes[0])
     indexed_boxes = {
-            i : boxes[i] for i in range(len(boxes))
+            i: boxes[i] for i in range(len(boxes))
             }
     for i in range(len(boxes)):
         for key in indexed_boxes.keys():
