@@ -21,11 +21,11 @@ def canUnlockAll(boxes):
                 if set(indexed_boxes.keys()).issubset(keys):
                     return True
     return False
-                # opened_boxes.append(indexed_boxes[key])
-    # print(keys)
-    # indexed_boxes_keys_set = set(indexed_boxes.keys())
-    # print(indexed_boxes_keys_set)
-    # if indexed_boxes_keys_set.issubset(keys):
-        # return True
-    # else:
-        # return False
+# opened_boxes.append(indexed_boxes[key])
+# print(keys)
+# indexed_boxes_keys_set = set(indexed_boxes.keys())
+# print(indexed_boxes_keys_set)
+# if indexed_boxes_keys_set.issubset(keys):
+# return True
+# else:
+# return False
