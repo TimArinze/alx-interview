@@ -20,9 +20,9 @@ def canUnlockAll(boxes):
                 keys.update(indexed_boxes[key])
                 # opened_boxes.append(indexed_boxes[key])
     # print(keys)
-    # print(indexed_boxes)
     indexed_boxes_keys_set = set(indexed_boxes.keys())
-    if keys == indexed_boxes_keys_set:
+    # print(indexed_boxes_keys_set)
+    if indexed_boxes_keys_set.issubset(keys):
         return True
     else:
         return False
