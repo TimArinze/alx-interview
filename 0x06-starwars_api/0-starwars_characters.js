@@ -1,5 +1,4 @@
 #!/usr/bin/node
-const { resolve } = require('path');
 const request = require('request');
 
 const baseUrl = 'https://swapi-api.alx-tools.com/api/films/';
