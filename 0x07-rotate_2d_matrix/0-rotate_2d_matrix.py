@@ -1,11 +1,11 @@
-#!/usr/bin/env python3
+#!/usr/bin/python3
 """
 Rotate 2D matrix
 """
 from typing import List
 
 
-def rotate_2d_matrix(matrix: List[List]):
+def rotate_2d_matrix(matrix: List[List[int]]):
     """Given an mxn = nxn 2D matrix, rotate it 90 degrees clockwise"""
     n = len(matrix)
     # n is the length of the row and column of the nxn matrix
